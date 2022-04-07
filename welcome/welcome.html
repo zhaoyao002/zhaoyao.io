@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>底部菜单栏</title>
+ 
+    <style>
+        .box{
+            width: 100%;
+            height: 60px;
+            text-align: center;
+			position: fixed;
+			bottom: 0;
+        }
+ 
+        /* 改变字体颜色 去掉下划线 */
+        .box a{
+			display:inline-block;
+			float: left;
+			width:25%;
+			height:80px;
+            color: black;
+            text-decoration: none;
+        }
+
+        /* 4.鼠标悬浮 改变颜色 */
+        .box a:hover{
+            color: #eee;
+        }
+    </style>
+</head>
+<body>
+    <!-- 1.搭建界面 -->
+    <div class="box">
+        <a href=""><img src="../images/home.png"/ width="30" height="28"><br>首页</br></a>
+
+        <a href=""><img src="../images/cp.png"/ width="30" height="28"><br>产品</br></a>
+
+        <a href=""><img src="../images/sj.png"/ width="30" height="28"><br>持仓</br></a>
+
+        <a href=""><img src="../images/wd.png"/ width="30" height="28"><br>我的</br></a>
+    </div>
+</body>
+</html>
